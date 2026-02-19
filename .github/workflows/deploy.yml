@@ -45,6 +45,6 @@ jobs:
               echo "CONFLITTO RILEVATO: Il rebase è fallito."
               echo "I file su R1 sono diversi da quelli locali."
               echo "Eseguito un push forzato"
-              git push destinazione/main --force
+              git push destinazione --force
               #exit 1 # Blocca tutto, risolvi in locale
             fi
